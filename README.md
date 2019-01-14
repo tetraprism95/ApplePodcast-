@@ -2,6 +2,11 @@
 
 Listen to some podcast while you're on the road! 
 
+## How I did this? 
+
+Through hours of tutorials and learning tricks here and there, I've learned many new features.  
+Brian Voong also known for his YouTube channel **Lets Build That App https://www.youtube.com/channel/UCuP2vJ6kRutQBfRmdcI92mA** creates great swift content, mostly programmatically, and shows how certain UIKit classes work.
+
 ## Demo
 
 ![applepodcastsearch](https://user-images.githubusercontent.com/36717095/51094381-72bdc880-177a-11e9-9e93-5ea070297d8b.gif)
