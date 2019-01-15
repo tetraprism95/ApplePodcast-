@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14111" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="242" id="KGk-i7-Jjw" customClass="EpisodeCell" customModule="Podcast" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="547" height="242"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="547" height="241.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appicon" translatesAutoresizingMaskIntoConstraints="NO" id="Qhj-Pg-aVs">
+                        <rect key="frame" x="36" y="71" width="100" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="100" id="9La-0H-jpQ"/>
+                            <constraint firstAttribute="width" constant="100" id="QLC-Yd-neE"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="Kro-ll-bZz">
+                        <rect key="frame" x="152" y="90" width="375" height="62"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="pubDate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="veI-Vo-NXm">
+                                <rect key="frame" x="0.0" y="0.0" width="62.5" height="19.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.8013000624634995" green="0.29646449336725716" blue="0.97575217485427856" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="episodeTitle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nkJ-gT-lI0">
+                                <rect key="frame" x="0.0" y="21.5" width="105.5" height="21.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wFP-x6-ogO">
+                                <rect key="frame" x="0.0" y="45" width="72.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.43675969720000002" green="0.43856394389999998" blue="0.4439766839" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uQw-Kx-hDl">
+                        <rect key="frame" x="47.5" y="104" width="77" height="34.5"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                        <color key="shadowColor" red="0.0062540479274610927" green="0.0062540479274610927" blue="0.0062540479274610927" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <size key="shadowOffset" width="0.0" height="1"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="uQw-Kx-hDl" firstAttribute="centerX" secondItem="Qhj-Pg-aVs" secondAttribute="centerX" id="BdE-2q-dA7"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Kro-ll-bZz" secondAttribute="trailing" id="D5X-Rg-6Tm"/>
+                    <constraint firstItem="Qhj-Pg-aVs" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="E9q-jh-bMw"/>
+                    <constraint firstItem="Kro-ll-bZz" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="ERV-Lb-VRM"/>
+                    <constraint firstItem="Kro-ll-bZz" firstAttribute="leading" secondItem="Qhj-Pg-aVs" secondAttribute="trailing" constant="16" id="L20-I8-8MT"/>
+                    <constraint firstItem="uQw-Kx-hDl" firstAttribute="centerY" secondItem="Qhj-Pg-aVs" secondAttribute="centerY" id="flU-7b-exF"/>
+                    <constraint firstItem="Qhj-Pg-aVs" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="16" id="x83-sy-Tsn"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="descriptionLabel" destination="wFP-x6-ogO" id="Kfe-64-b0u"/>
+                <outlet property="episodeImageView" destination="Qhj-Pg-aVs" id="88h-iU-y2s"/>
+                <outlet property="progressLabel" destination="uQw-Kx-hDl" id="0up-0d-n8y"/>
+                <outlet property="pubDateLabel" destination="veI-Vo-NXm" id="x6V-Ll-0gg"/>
+                <outlet property="titleLabel" destination="nkJ-gT-lI0" id="50c-hk-BXh"/>
+            </connections>
+            <point key="canvasLocation" x="2.5" y="-95"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="appicon" width="60" height="60"/>
+    </resources>
+</document>
