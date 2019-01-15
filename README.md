@@ -23,6 +23,8 @@ Here's his YouTube Link! **https://www.youtube.com/channel/UCuP2vJ6kRutQBfRmdcI9
 IDE: Xcode (NEEDED TO OPEN)
 Language&Version: Swift 4.2  
 Xcode used to develop for mainly, macOS, iOS, watchOS, and tvOS.
+
+**REQUIREMENTS THAT ARE IMPORTANT TO PLAY A PODCAST OR BE EFFICIENT ARE LISTED BELOW**
 </pre>
 
 ## Git Clone Terminal Over HTTPS
