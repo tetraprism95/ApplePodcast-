@@ -37,6 +37,7 @@ $ git clone https://github.com/tetraprism95/MQR.git
 
 - **FeedKit** used to parse RSS, ATOM, or JSON feed. Install => **https://github.com/nmdias/FeedKit** 
 - **AlamoFire** is a networking library written in swift. Install => **https://github.com/Alamofire/Alamofire** Could be outdated.
+- **iTunes Search API** Look Up => **https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/Searching.html#//apple_ref/doc/uid/TP40017632-CH5-SW1**
 - **Decodable**
 - **URLEncoding Request** 
 - **SDWebImage** helps cache images easily. 
