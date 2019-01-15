@@ -63,5 +63,5 @@ $ git clone https://github.com/tetraprism95/MQR.git
 ## FUTURE UPDATES: 
 
 - AlamoFire (Could be outdated)
-- More UI Design coming.
+- More UI Designs coming.
 
