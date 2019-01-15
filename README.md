@@ -52,4 +52,16 @@ $ git clone https://github.com/tetraprism95/MQR.git
 - **UserDefaults NSCoding**
 - **Track Podcast Playback Time**
 - **Volume Control**
-- **Monitor Download Progress**
+- **Monitor Download Progress** 
+- **AND MORE..**
+
+## Bugs
+
+- Sometimes the play button when tapped may not play at all. Working on it.
+- While listening to your favorite podcast there is a possibility that an incoming phone call may cause a crash. 
+
+## FUTURE UPDATES: 
+
+- AlamoFire (Could be outdated)
+- More UI Design coming.
+
